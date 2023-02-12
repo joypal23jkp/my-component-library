@@ -1,0 +1,23 @@
+
+.base-button {
+    @apply px-4 py-2 text-lg rounded-lg border-0 cursor-pointer bg-primary-600 text-white w-[120px]
+        hover:bg-primary-700 hover:shadow-sm
+        active:shadow-sm active:bg-primary-700
+        duration-200 ease-linear
+}
+.small-button {
+    @apply w-[100px] px-2 py-2 text-sm rounded-md;
+}
+
+.large-button {
+    @apply px-2 py-3 rounded-md text-lg w-[150px];
+}
+
+button:disabled {}
+
+.secondary-button {
+    @apply bg-primary-100 text-primary-700 hover:bg-primary-200 active:bg-primary-200;
+}
+.transparent-button {
+    @apply bg-transparent text-primary-700 border border-primary-200 hover:bg-primary-700 hover:text-white active:bg-primary-700 active:text-white;
+}

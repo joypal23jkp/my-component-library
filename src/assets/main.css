@@ -1,0 +1,30 @@
+@import "./css/button.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply
+      bg-white
+      text-black
+      dark:bg-slate-800
+      dark:text-white
+  }
+  h1 {
+    @apply
+      text-xl
+      font-bold
+      text-teal-500
+  }
+}
+.j-button {
+  @apply p-3 rounded-sm bg-black text-pink-50 hover:bg-pink-500 hover:shadow-sm active:shadow-sm active:bg-pink-800
+  dark:text-pink-800 dark:bg-pink-200 dark:hover:bg-gray-700 dark:hover:text-pink-50
+  dark:hover:shadow-gray-900 dark:active:bg-pink-300 duration-300 ease-linear
+  cursor-pointer
+}
+.button-disabled {
+  @apply opacity-50 cursor-none hover:bg-blend-normal
+}
