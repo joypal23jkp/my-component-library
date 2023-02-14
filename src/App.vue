@@ -2,8 +2,8 @@
 <template>
   <div class="w-full h-screen flex justify-center items-center">
     <div class="w-1/4">
-      <AKButton type="secondary" size="sm">Hello</AKButton>
-      <AKLabel>Hello</AKLabel>
+      <AKButton type="primary" circular>+</AKButton>
+      <AKLabel>hello</AKLabel>
     </div>
   </div>
 </template>
