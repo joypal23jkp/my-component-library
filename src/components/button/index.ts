@@ -1,3 +1,9 @@
-import Button from "./ArktikButton.vue";
+import Button from "./Button.vue";
+import ButtonGroup from "./ButtonGroup.vue";
+import { sfcInstaller } from "@/utils/sfc";
 
-export default { Button };
+sfcInstaller({
+  Button,
+  ButtonGroup,
+});
+export { Button, ButtonGroup };

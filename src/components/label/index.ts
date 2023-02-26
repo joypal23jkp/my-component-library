@@ -1,2 +1,2 @@
-import Label from "./ArktikLabel.vue";
+import Label from "./Label.vue";
 export { Label };

@@ -1,3 +1,4 @@
-import AKButton from "@/components/button/ArktikButton.vue";
-import AKLabel from "@/components/label/ArktikLabel.vue";
-export default { AKButton, AKLabel };
+export * from "./button";
+export * from "./dropdown";
+export * from "./label";
+export * from "./icons";
